@@ -67,34 +67,18 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Acerca de mi',
+            href: 'https://lorspi.com/'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Behance',
+            href: 'https://www.behance.net/lorspi'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/lorspi/'
         }
     ],
     hero: {
