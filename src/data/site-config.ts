@@ -40,29 +40,21 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://lorspi.com/blog/',
-    title: 'Blog de UX',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'UX Plenamente: Experiencias, Opiniones y Tips',
+    subtitle: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde la mi mirada personal.',
+    description: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde la mi mirada personal.',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
         {
-            text: 'Home',
-            href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
             text: 'Blog',
             href: '/blog'
         },
         {
             text: 'Tags',
-            href: '/tags'
+            href: '/blog/tags'
         }
     ],
     footerNavLinks: [
