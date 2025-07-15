@@ -50,10 +50,10 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Blog',
-            href: '/blog'
+            href: '/blog/'
         },
         {
-            text: 'Tags',
+            text: 'Etiquetas',
             href: '/blog/tags'
         }
     ],
