@@ -49,11 +49,11 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Blog',
+            text: 'Inicio',
             href: '/blog/'
         },
         {
-            text: 'Etiquetas',
+            text: 'Temas',
             href: '/blog/tags'
         }
     ],
