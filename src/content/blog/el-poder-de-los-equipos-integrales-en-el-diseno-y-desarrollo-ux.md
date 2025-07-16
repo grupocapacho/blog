@@ -14,6 +14,14 @@ seo:
 
 ![People holding miniature figures](/blog/el-poder-de-los-equipos-integrales-en-el-diseno-y-desarrollo-ux.jpg)
 
+En una de mis reuniones con todo el equipo de un proyecto le pedí una opiniones de experiencia de usuario y diseño a los desarrolladores. Luego de la reunión mi compañero diseñador me dijo algo como:
+
+> No le pidas opiniones de diseño a los desarrolladores porque ellos no saben de UX y están sesgados.
+
+Lo que me pareció irónico porque días antes en ese mismo proyecto algunas de las grandes oportunidades de mejora en UX las identificaron los desarrolladores.
+
+Yo soy muy de involucrar a todo el equipo en temas de UX así como también me gusta involucrarme en temas de desarrollo. Pero siempre ha habido una guerra de egos entre estas dos disciplinas. 🤔 Vamos a profundizar en estas ideas:
+
 ## La falsa dualidad entre diseño y desarrollo
 
 Durante demasiado tiempo, hemos concebido el diseño y el desarrollo como dos mundos separados, casi antagónicos. Por un lado, los diseñadores con sus wireframes, prototipos y pruebas de usuario; por otro, los desarrolladores con su código, arquitectura y soluciones técnicas. Esta división artificial ha creado silos profesionales que limitan la innovación y generan fricciones innecesarias en los procesos de trabajo.
