@@ -44,25 +44,26 @@ const navLinks = siteConfig.footerNavLinks || [];
             ayuda de la IA.
         </p>
     </div>
-    <script>
-        // Attach listener to DOM Loaded
-        window.addEventListener('DOMContentLoaded', setFavicon);
+</footer>
 
-        // Set specific favicon if browser is in dark mode
-        function setFavicon() {
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                const favicon = document.querySelector('[data-dark]');
+<script>
+    // Attach listener to DOM Loaded
+    window.addEventListener('DOMContentLoaded', setFavicon);
 
-                // No icon found
-                if (!favicon) {
-                    return;
-                }
+    // Set specific favicon if browser is in dark mode
+    function setFavicon() {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            const favicon = document.querySelector('[data-dark]') as HTMLLinkElement | null;
 
-                // Dark version available
-                if (favicon.dataset.dark) {
-                    favicon.href = favicon.dataset.dark;
-                }
+            // No icon found
+            if (!favicon) {
+                return;
+            }
+
+            // Dark version available
+            if (favicon.dataset.dark) {
+                favicon.href = favicon.dataset.dark;
             }
         }
-    </script>
-</footer>
+    }
+</script>
