@@ -44,8 +44,8 @@ const siteConfig: SiteConfig = {
     subtitle: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde la mi mirada personal.',
     description: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde la mi mirada personal.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: 'blog/ux-plenamente.jpg',
+        alt: 'A pen on a book - Photo by Swanky Fella on Unsplash'
     },
     headerNavLinks: [
         {
