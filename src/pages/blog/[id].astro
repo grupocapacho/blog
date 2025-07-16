@@ -55,14 +55,14 @@ const { Content } = await render(post);
                 tags.length > 0 && (
                     <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
                         {tags.map((tag) => (
-                            <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
+                            <a class="text-main hover:underline" href={`/blog/tags/${slugify(tag)}`}>
                                 #{tag}
                             </a>
                         ))}
                     </div>
                 )
             }
-            <Button class="copy-url-button" aria-label="Copy link" data-url={href} data-tooltip-default="Copiar enlace" data-tooltip-success="Copied"
+            <Button class="copy-url-button" aria-label="Copiar enlace" data-url={href} data-tooltip-default="Copiar enlace" data-tooltip-success="Copied"
                 >Compartir</Button
             >
         </div>
