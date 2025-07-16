@@ -40,7 +40,7 @@ const { Content } = await render(post);
                         <>
                             {' '}
                             <span>
-                                (Updated on <FormattedDate date={updatedDate} />)
+                                (Actualizado <FormattedDate date={updatedDate} />)
                             </span>
                         </>
                     )
@@ -66,6 +66,7 @@ const { Content } = await render(post);
                 >Compartir</Button
             >
         </div>
+        <div class="giscus"></div>
     </article>
     {
         (prevPost || nextPost) && (
@@ -100,3 +101,18 @@ const { Content } = await render(post);
         }
     });
 </script>
+<script
+    src="https://giscus.app/client.js"
+    data-repo="grupocapacho/blog"
+    data-repo-id="R_kgDOPNIK4w"
+    data-category="General"
+    data-category-id="DIC_kwDOPNIK484CtAjv"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="noborder_gray"
+    data-lang="es"
+    crossorigin="anonymous"
+    async></script>
