@@ -82,37 +82,27 @@ const { Content } = await render(post);
 
 <script>
     document.addEventListener('astro:page-load', () => {
-        const copyUrlButton = document.querySelector('.copy-url-button') as HTMLButtonElement;
-        copyUrlButton?.addEventListener('click', async () => {
-            await copyUrl(copyUrlButton);
-        });
+        const giscusContainer = document.querySelector('.giscus');
+        if (!giscusContainer) return;
 
-        async function copyUrl(button: HTMLButtonElement) {
-            let url = button.getAttribute('data-url') || '';
-            let label = button.innerText;
+        // Limpia el contenedor antes de volver a montar Giscus
+        giscusContainer.innerHTML = '';
 
-            await navigator.clipboard.writeText(url);
-
-            button.innerText = 'Copiado';
-
-            setTimeout(() => {
-                button.innerText = label;
-            }, 2500);
-        }
+        const script = document.createElement('script');
+        script.src = 'https://giscus.app/client.js';
+        script.setAttribute('data-repo', 'grupocapacho/blog');
+        script.setAttribute('data-repo-id', 'R_kgDOPNIK4w');
+        script.setAttribute('data-category', 'General');
+        script.setAttribute('data-category-id', 'DIC_kwDOPNIK484CtAjv');
+        script.setAttribute('data-mapping', 'pathname');
+        script.setAttribute('data-strict', '0');
+        script.setAttribute('data-reactions-enabled', '1');
+        script.setAttribute('data-emit-metadata', '0');
+        script.setAttribute('data-input-position', 'top');
+        script.setAttribute('data-theme', 'noborder_gray');
+        script.setAttribute('data-lang', 'es');
+        script.crossOrigin = 'anonymous';
+        script.async = true;
+        giscusContainer.appendChild(script);
     });
 </script>
-<script
-    src="https://giscus.app/client.js"
-    data-repo="grupocapacho/blog"
-    data-repo-id="R_kgDOPNIK4w"
-    data-category="General"
-    data-category-id="DIC_kwDOPNIK484CtAjv"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="noborder_gray"
-    data-lang="es"
-    crossorigin="anonymous"
-    async></script>
