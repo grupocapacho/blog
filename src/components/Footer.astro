@@ -47,24 +47,28 @@ const navLinks = siteConfig.footerNavLinks || [];
 </footer>
 
 <script>
-    // Attach listener to DOM Loaded
+    function setFavicon() {
+        const favicon = document.querySelector('[data-dark]');
+        if (!favicon) return;
+
+        // Detecta modo oscuro
+        const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (isDark && favicon.dataset.dark) {
+            favicon.href = favicon.dataset.dark;
+        } else if (favicon.dataset.light) {
+            favicon.href = favicon.dataset.light;
+        }
+    }
+
+    // Al cargar la página
     window.addEventListener('DOMContentLoaded', setFavicon);
 
-    // Set specific favicon if browser is in dark mode
-    function setFavicon() {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            const favicon = document.querySelector('[data-dark]') as HTMLLinkElement | null;
+    // Al navegar con Astro SPA
+    document.addEventListener('astro:page-load', setFavicon);
 
-            // No icon found
-            if (!favicon) {
-                return;
-            }
-
-            // Dark version available
-            if (favicon.dataset.dark) {
-                favicon.href = favicon.dataset.dark;
-            }
-        }
+    // Al cambiar el tema del sistema
+    if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setFavicon);
     }
 </script>
 <script
@@ -81,5 +85,4 @@ const navLinks = siteConfig.footerNavLinks || [];
     data-theme="noborder_gray"
     data-lang="es"
     crossorigin="anonymous"
-    async
-></script>
+    async></script>
