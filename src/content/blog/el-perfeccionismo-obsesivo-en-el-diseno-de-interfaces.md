@@ -1,6 +1,6 @@
 ---
 title: El perfeccionismo obsesivo en el diseño de interfaces
-excerpt: ¿Te ha pasado alguna vez que en un proceso de diseño tenes esa necesidad obsesiva de revisar y hacer cambios mínimos y a veces innecesarios en los elementos de UI?
+excerpt: ¿Te pasa que en tus procesos de diseño tenes esa necesidad obsesiva de revisar y hacer cambios mínimos y a veces innecesarios en los elementos de UI?
 publishDate: 'Jul 18 2025'
 tags:
   - UX
@@ -14,9 +14,9 @@ seo:
 
 ![Un hombre cansado se sienta frente a una computadora que cubre su rostro](/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces.jpg)
 
-¿Te ha pasado alguna vez que en un proceso de diseño tenes esa necesidad obsesiva de revisar y hacer cambios mínimos y a veces innecesarios en los elementos de UI?
+¿Te pasa que en tus procesos de diseño tenes esa necesidad obsesiva de revisar y hacer cambios mínimos y a veces innecesarios en los elementos de UI?
 
-A mi no, pero he trabajado con personas así y me parece una práctica bastante ineficiente. Y no me malinterpretes querido lector. No me refiero a detalles importantes como cambiar algún color para mejorar el contraste, cambiar el tamaño de un texto para mejorar legibilidad o dar mas espacios para evitar la saturación. En realidad me refiero a pequeños cambios insignificantes que no están guiados por objetivos reales si no nada mas por "cacharrearle" a ver cómo se ve.
+A mi ya no, pero he trabajado con personas así y me parece una práctica bastante ineficiente. Y no me malinterpretes querido lector. No me refiero a detalles importantes como cambiar algún color para mejorar el contraste, cambiar el tamaño de un texto para mejorar legibilidad o dar mas espacios para evitar la saturación. En realidad me refiero a pequeños cambios insignificantes que no están guiados por objetivos reales si no nada mas por **"cacharrearle"** a ver cómo se ve inspirado unicamente en la premisa *"le falta diseño"* /*"le falta algo"*.
 
 En UX, ese comportamiento se suele llamar **"overdesign"** o **"over-engineering"**, aunque en un contexto más psicológico o de comportamiento también se puede relacionar con el **"UI tweaking"** compulsivo o incluso con el **"perfeccionismo"**.
 
@@ -26,9 +26,11 @@ En la universidad un profesor dijo una frase que se me quedó en la mente para t
 
 > Lo excelente es enemigo de lo bueno.
 
-Y es que hay miles de formas de plasmar un diseño pero no hay uno solo que sea el correcto ni el incorrecto. Aquí juega mucho el tema de los gustos personales.
+Y es que hay miles de formas de plasmar un diseño pero no hay una sola que sea la correcta ni la incorrecta. Aquí juega mucho el tema de los gustos personales. El *"Me parece que se ve mejor así"* no es una métrica. Es una opinión relativa.
 
-Por aquí dejo algunas estrategias para evitar el comportamiento obsesivo de hacer cambios mínimos e innecesarios en la UI dentro de un equipo de diseño:
+Personalmente a veces le doy la razón al colega que hace este tipo de comentarios para no seguir dándole vueltas a temas relativos que no quitan ni aportan a los objetivos de la interfaz y la experiencia del usuario. ¿Te parece algo condescendiente de mi parte? Hablemos en los comentarios. 💬
+
+En fin, por aquí dejo algunas estrategias para evitar el comportamiento obsesivo de hacer cambios mínimos e innecesarios en la UI dentro de un equipo de diseño:
 
 1. **Definir objetivos claros y métricas:** Establecer metas concretas y medibles para el diseño ayuda a enfocar el trabajo en mejoras que realmente impacten positivamente en la experiencia del usuario y evitan cambios arbitrarios.
 
