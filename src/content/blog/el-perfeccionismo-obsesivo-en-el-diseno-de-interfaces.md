@@ -8,11 +8,11 @@ tags:
   - Anécdota
 seo:
   image:
-    src: '/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces.jpg'
+    src: '/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces-2.jpg'
     alt: Un hombre cansado se sienta frente a una computadora que cubre su rostro - Photo by pvproductions on Freepik
 ---
 
-![Un hombre cansado se sienta frente a una computadora que cubre su rostro](/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces.jpg)
+![Un hombre cansado se sienta frente a una computadora que cubre su rostro](/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces-1.jpg)
 
 ¿Te pasa que en tus procesos de diseño tenes esa necesidad obsesiva de revisar y hacer cambios mínimos y a veces innecesarios en los elementos de UI?
 
