@@ -96,3 +96,11 @@ html.dark {
         @apply font-serif font-normal italic border-none pl-0 text-[1.375em] leading-snug sm:text-[1.66667em];
     }
 }
+
+.giscus {
+    display: none;
+}
+
+article .giscus {
+    display: block;
+}
