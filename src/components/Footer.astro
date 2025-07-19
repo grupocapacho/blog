@@ -10,8 +10,9 @@ const navLinks = siteConfig.footerNavLinks || [];
         navLinks.length > 0 && (
             <div class="mb-4 flex flex-wrap gap-x-6 gap-y-1">
                 {navLinks.map((link) => (
-                    <a class="font-serif hover:underline hover:underline-offset-2" href={link.href} target="_blank">
+                    <a class="font-serif hover:underline hover:underline-offset-2" href={link.href} target={link.target}>
                         {link.text}
+                        {link.target ? ' ↗' : ''}
                     </a>
                 ))}
             </div>
@@ -30,10 +31,11 @@ const navLinks = siteConfig.footerNavLinks || [];
                         <a
                             class="inline-flex items-center justify-center text-sm hover:underline hover:underline-offset-2"
                             href={link.href}
-                            target="_blank"
+                            target={link.target}
                             rel="noopener noreferer"
                         >
                             {link.text}
+                            {link.target ? ' ↗' : ''}
                         </a>
                     ))}
                 </div>

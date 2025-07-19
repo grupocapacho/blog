@@ -7,6 +7,7 @@ export type Image = {
 export type Link = {
     text: string;
     href: string;
+    target?: string;
 };
 
 export type Hero = {
@@ -55,22 +56,38 @@ const siteConfig: SiteConfig = {
         {
             text: 'Temas',
             href: '/blog/tags'
+        },
+        {
+            text: 'Acerca de mi',
+            href: 'https://lorspi.com/',
+            target: '_blank'
         }
     ],
     footerNavLinks: [
         {
+            text: 'Inicio',
+            href: '/blog/'
+        },
+        {
+            text: 'Temas',
+            href: '/blog/tags'
+        },
+        {
             text: 'Acerca de mi',
-            href: 'https://lorspi.com/'
+            href: 'https://lorspi.com/',
+            target: '_blank'
         }
     ],
     socialLinks: [
         {
             text: 'Behance',
-            href: 'https://www.behance.net/lorspi'
+            href: 'https://www.behance.net/lorspi',
+            target: '_blank'
         },
         {
             text: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/lorspi/'
+            href: 'https://www.linkedin.com/in/lorspi/',
+            target: '_blank'
         }
     ],
     postsPerPage: 8,
