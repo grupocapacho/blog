@@ -28,8 +28,6 @@ En la universidad un profesor dijo una frase que se me quedó en la mente para t
 
 Y es que hay miles de formas de plasmar un diseño pero no hay una sola que sea la correcta ni la incorrecta. Aquí juega mucho el tema de los gustos personales. El *"Me parece que se ve mejor así"* no es una métrica. Es una opinión relativa.
 
-Personalmente a veces le doy la razón al colega que hace este tipo de comentarios para no seguir dándole vueltas a temas relativos que no quitan ni aportan a los objetivos de la interfaz y la experiencia del usuario. ¿Te parece algo condescendiente de mi parte? Hablemos en los comentarios. 💬
-
 En fin, por aquí dejo algunas estrategias para evitar el comportamiento obsesivo de hacer cambios mínimos e innecesarios en la UI dentro de un equipo de diseño:
 
 1. **Definir objetivos claros y métricas:** Establecer metas concretas y medibles para el diseño ayuda a enfocar el trabajo en mejoras que realmente impacten positivamente en la experiencia del usuario y evitan cambios arbitrarios.
