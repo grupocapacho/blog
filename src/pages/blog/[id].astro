@@ -106,3 +106,23 @@ const { Content } = await render(post);
         giscusContainer.appendChild(script);
     });
 </script>
+<script>
+    document.addEventListener('astro:page-load', () => {
+        const btn = document.querySelector('.copy-url-button');
+        if (!btn) return;
+
+        btn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                // Opcional: feedback visual
+                const original = btn.textContent;
+                btn.textContent = '¡Enlace copiado!';
+                setTimeout(() => {
+                    btn.textContent = original;
+                }, 1500);
+            } catch (e) {
+                alert('No se pudo copiar el enlace');
+            }
+        });
+    });
+</script>
