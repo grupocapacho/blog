@@ -13,12 +13,8 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
 });
 ---
 
-<BaseLayout
-    title="Tags"
-    description="Explore tag directory for easy navigation and discovery. Find a wide range of topics, articles, and insights organized by tags, making it effortless to locate the content that interests you most."
-    showHeader={false}
->
-    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">Todas las etiquetas</h1>
+<BaseLayout title="Temas" description="Explora el directorio de temas para navegar y descubrir fácilmente." showHeader={false}>
+    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">Todos los temas</h1>
     {
         tags.map((tag) => {
             const postCount = getPostsByTag(posts, tag.id).length;
@@ -33,7 +29,7 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
                         </div>
                     </div>
                     <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-                        Ver archivo de etiqueta <ArrowRight class="fill-current w-4 h-4" />
+                        Ver archivo del tema <ArrowRight class="fill-current w-4 h-4" />
                     </div>
                 </a>
             );
