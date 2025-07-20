@@ -51,6 +51,7 @@ Si el usuario necesita ir físicamente al restaurante o llamar por teléfono par
 - La interfaz le prermite al usuario seleccionar varias opciones.
 - Las demás opciones se deshabilitan cuando el usuario selecciona el máximo de opciones permitidas.
 - No hay una opción *"Mixto"* ya que al seleccionar varias opciones ya está siendo un pedido mixto.
+- Mantener consistencia en el idioma de la interfaz.
 ![Propuesta nueva de interfaz](/blog/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.png)
 
 
