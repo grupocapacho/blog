@@ -5,7 +5,6 @@ publishDate: 'Jul 18 2025'
 tags:
   - UX
   - Colaboración
-  - Anécdota
 seo:
   image:
     src: '/blog/el-perfeccionismo-obsesivo-en-el-diseno-de-interfaces-2.jpg'
