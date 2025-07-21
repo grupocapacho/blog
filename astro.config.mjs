@@ -10,6 +10,5 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()]
     },
-    integrations: [mdx(), sitemap()],
-    integrations: [partytown({ config: { forward: ['dataLayer.push'] } })]
+    integrations: [mdx(), sitemap(), partytown({ config: { forward: ['dataLayer.push'] } })]
 });
