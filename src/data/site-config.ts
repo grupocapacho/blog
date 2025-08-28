@@ -40,7 +40,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://lorspi.com/blog/',
+    website: 'https://blog.lorspi.com/',
     title: 'UX Plenamente: Experiencias, Opiniones y Tips',
     subtitle: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde mi mirada personal.',
     description: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde mi mirada personal.',
@@ -51,11 +51,11 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Inicio',
-            href: '/blog/'
+            href: '/'
         },
         {
             text: 'Temas',
-            href: '/blog/tags'
+            href: '/tags'
         },
         {
             text: 'Acerca de mi',
@@ -66,11 +66,11 @@ const siteConfig: SiteConfig = {
     footerNavLinks: [
         {
             text: 'Inicio',
-            href: '/blog/'
+            href: '/'
         },
         {
             text: 'Temas',
-            href: '/blog/tags'
+            href: '/tags'
         },
         {
             text: 'Acerca de mi',

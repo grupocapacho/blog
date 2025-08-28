@@ -2,4 +2,4 @@
 
 Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde la mi mirada personal.
 
-https://lorspi.com/blog/
+https://blog.lorspi.com/
