@@ -8,11 +8,11 @@ tags:
   - Metodologías
 seo:
   image:
-    src: '/blog/el-poder-de-los-equipos-integrales-en-el-diseno-y-desarrollo-ux.jpg'
+    src: '/el-poder-de-los-equipos-integrales-en-el-diseno-y-desarrollo-ux.jpg'
     alt: People holding miniature figures - Photo by Vlad Hilitanu on Unsplash
 ---
 
-![People holding miniature figures](/blog/el-poder-de-los-equipos-integrales-en-el-diseno-y-desarrollo-ux.jpg)
+![People holding miniature figures](/el-poder-de-los-equipos-integrales-en-el-diseno-y-desarrollo-ux.jpg)
 
 ***"No le pidas opiniones de diseño a los desarrolladores porque ellos no saben de UX y están sesgados"*** 
 

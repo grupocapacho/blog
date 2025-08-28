@@ -7,11 +7,11 @@ tags:
   - Web
 seo:
   image:
-    src: '/blog/post-5.jpg'
+    src: '/post-5.jpg'
     alt: Dark sphere
 ---
 
-![Dark sphere](/blog/post-5.jpg)
+![Dark sphere](/post-5.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

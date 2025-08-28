@@ -8,15 +8,15 @@ tags:
   - Anécdota
 seo:
   image:
-    src: '/blog/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.jpg'
+    src: '/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.jpg'
     alt: Pastry breads on brown chopping board - Photo by Patryk Pastewski on Unsplash
 ---
 
-![Pastry breads on brown chopping board](/blog/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.jpg)
+![Pastry breads on brown chopping board](/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.jpg)
 
 Hace poco, un amigo me compartió una experiencia frustrante al intentar pedir empanadas en línea desde la página de un restaurante. El problema surgió al intentar seleccionar varios sabores para su combo: cada vez que elegía un sabor, los demás se deshabilitaban automáticamente.
 
-![La interfaz no permite seleccionar varios sabores](/blog/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe-gif.gif)
+![La interfaz no permite seleccionar varios sabores](/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe-gif.gif)
 
 ¿La solución? Según el encargado del restaurante, lo que debía hacer era seleccionar la opción *"mixta"* y luego escribir manualmente los sabores en un campo de texto libre. Esto no estaba indicado claramente en ningún lado de la interfaz.
 
@@ -52,7 +52,7 @@ Si el usuario necesita ir físicamente al restaurante o llamar por teléfono par
 - Las demás opciones se deshabilitan cuando el usuario selecciona el máximo de opciones permitidas.
 - No hay una opción *"Mixto"* ya que al seleccionar varias opciones ya está siendo un pedido mixto.
 - Mantener consistencia en el idioma de la interfaz.
-![Propuesta nueva de interfaz](/blog/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.png)
+![Propuesta nueva de interfaz](/el-caso-de-las-empanadas-cuando-la-interfaz-no-comunica-lo-que-debe.png)
 
 
 Este caso nos recuerda que diseñar una interfaz no es solo hacer que algo funcione técnicamente, sino hacer que sea intuitivo, claro y sin fricciones para el usuario. Cada decisión debe estar pensada desde el punto de vista de quien va a usarla, no de quien la configuró.

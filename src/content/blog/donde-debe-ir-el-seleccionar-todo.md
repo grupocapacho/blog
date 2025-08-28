@@ -8,14 +8,14 @@ tags:
   - Anécdota
 seo:
   image:
-    src: '/blog/donde-debe-ir-el-seleccionar-todo.jpg'
+    src: '/donde-debe-ir-el-seleccionar-todo.jpg'
     alt: A Quirky Yellow Painting - Photo by Orkun Azap on Unsplash
 ---
 
 Una vez quise anular mi suscripción de una lista de correo. Me encontré con que debía anular cada tipo de comunicación una por una. Pero al final me encontré con la opción que permitía habilitar o deshabilitar todas. Colocar la opción de habilitar/deshabilitar todo al final de la lista no es la práctica más recomendable en términos de UX. Lo ideal es ubicar este control al inicio (parte superior), especialmente cuando hay muchas opciones individuales a elegir.
 
 <video width="961" controls>
- <source src="/blog/donde-debe-ir-el-seleccionar-todo.webm" type="video/webm">
+ <source src="/donde-debe-ir-el-seleccionar-todo.webm" type="video/webm">
 </video>
 
 ### Hablando más desde el punto de vista de UX/UI estas serían las razones por las que el inicio es mejor:
