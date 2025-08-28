@@ -40,7 +40,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://lorspi.com/blog/',
+    website: 'https://blog.lorspi.com/',
     title: 'UX Plenamente: Experiencias, Opiniones y Tips',
     subtitle: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde mi mirada personal.',
     description: 'Reflexiones reales y consejos prácticos para mejorar la experiencia de usuario, desde mi mirada personal.',
